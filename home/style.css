@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(217, 214, 214);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+    & .container {
+        width: 100%;
+    }
+
+    & .container img {
+        width: 250px;
+        height: auto;
+    }
+
+}
+
+form {
+    width: 100%;
+    background: rgb(180, 13, 13);
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 200px;
+
+    & .formulario {
+        padding: 50px;
+        width: 10%;
+        background: rgb(217, 214, 214);
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    }
+
+    & .formulario input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    & .formulario input [type="submit"]{
+        background: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    a.button {
+        /* Make the links look like buttons */
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        color: #333;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      a.button:hover {
+        background-color: rgb(180, 13, 13);
+        color: white;
+      }
+
+}
+
+
+footer{
+    background: rgb(217, 214, 214);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
